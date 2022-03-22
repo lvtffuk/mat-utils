@@ -1,5 +1,6 @@
 import CSV from './csv';
 import Logger from './logger';
+import ParquetField from './parquet/field';
 
 const sleep = (timeout: number) => {
 	return new Promise((resolve) => {
@@ -10,5 +11,6 @@ const sleep = (timeout: number) => {
 export {
 	CSV,
 	Logger,
+	ParquetField,
 	sleep,
 };
